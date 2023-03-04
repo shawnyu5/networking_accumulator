@@ -20,7 +20,7 @@ pub struct Pagination {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-/// event_sales_status object
+/// `event_sales_status` object
 ///
 /// * `event_sales_status`: information about the event sales
 /// * `timezone`: timezone of the event
@@ -44,9 +44,9 @@ pub struct Event {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
-/// event_sales_status object
+/// `event_sales_status` object
 ///
-/// * `start_sales_date`: start_sales_date object
+/// * `start_sales_date`: `start_sales_date` object
 /// * `currency`: currency of tickets
 /// * `message_code`:
 /// * `message`:
